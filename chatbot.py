@@ -22,8 +22,8 @@ nltk.download('stopwords')
 nltk.download('vader_lexicon')
 
 # Initialize Spotipy
-client_id = '6b6e29b4221e4c909b583cbdf6359e14'
-client_secret = '6f505b91533e4590bd162002c293cd2f'
+client_id = '#########################'
+client_secret = '######################'
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
@@ -63,7 +63,7 @@ def fetch_comments_with_api(video_id, max_comments=1500):
     try:
         api_service_name = "youtube"
         api_version = "v3"
-        DEVELOPER_KEY = "AIzaSyD-c3vqCwzr_KbROKWQ7-i6Vd68jNdsurA" 
+        DEVELOPER_KEY = "################################" 
 
         youtube = googleapiclient.discovery.build(
             api_service_name, api_version, developerKey=DEVELOPER_KEY)
