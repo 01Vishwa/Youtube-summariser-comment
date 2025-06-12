@@ -1,1 +1,1 @@
-# Song Chatbot- Using spotigy API and Youtube API                                    
+# YT Sentilyzer - YouTube Comment Intelligence Hub
