@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+google-api-python-client
+transformers
+torch
+altair
+wordcloud
+matplotlib
+pillow
+requests
+nltk
